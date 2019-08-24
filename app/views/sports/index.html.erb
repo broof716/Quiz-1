@@ -1,8 +1,6 @@
-  <% @sports.each do |sports| %>
-  <div class="booyah-box">
-    <h1><%= sports.name %></h1><br />
-    <p><%= sports.description %></p><br />
+<% @sports.each do |sport| %>
+  <div class="booyah-box col-8 offset-2">
+    <h1><%= sport.name %></h1><br />
+    <p><%= sport.description %></p><br />
   </div>
-
-  <hr />
 <% end %>
